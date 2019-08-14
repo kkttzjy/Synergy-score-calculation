@@ -1,0 +1,6 @@
+echo "# Synergy-score-calculation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kkttzjy/Synergy-score-calculation.git
+git push -u origin master
