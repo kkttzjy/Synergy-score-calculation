@@ -1,24 +1,11 @@
-#options(java.parameters = "-Xmx2048m")
-#library(xlsx)
+
 library(openxlsx)
-#library(ggplot2)
 library(Hmisc)
 library(stringr)
 library(zoo)
 library(nplr)
 library(WriteXLS)
 library(readxl)
-
-# raw.data.files = "20181112 resazurin.xlsx"
-# agent1 = "TAE226"
-# agent2 = "HS173"
-# drugname = c("HS-173", "TAE226",comb1, comb2, comb3, comb4)
-# comb1 =expression(paste("HS-173"," + ","5 ",mu,M," TAE226"))
-# comb2 =expression(paste("HS-173"," + ","2.5 ",mu,M," TAE226"))
-# comb3 =expression(paste("HS-173"," + ","1,25 ",mu,M," TAE226"))
-# comb4 =expression(paste("HS-173"," + ","0.625 ",mu,M," TAE226"))
-# m = 10 ## number of dosage in agent 2
-# info.data.files = "20181112 resazurin infomation"
 
 analyze = function(raw.data.files = "20191108 resazurin R.xlsx", 
                    info.data.files = "20191108 resazurin information.xlsx",
